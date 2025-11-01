@@ -2,7 +2,7 @@
 from fastmcp import FastMCP
 from typing import Annotated, NamedTuple
 
-from todo_db import TodoDB
+from anything.todo_db import TodoDB
 
 # Create the DB (Just for simulation)
 todo_db = TodoDB()
